@@ -4,8 +4,8 @@
 Este repositorio documenta la implementación de un entorno de red de área local (LAN) estructurada, donde se configura un **Router Cisco** para operar como un **Servidor DHCPv4 dinámico**, automatizando la entrega de parámetros de red a los hosts finales (End Devices) y evitando asignaciones estáticas propensas a errores humanos.
 
 ---
-![Topología de Red](./Topologia.jpg)
-## 🏗️️ Arquitectura y Topología de Red
+
+## 🏗 Arquitectura y Topología de Red
 La red implementada consta de los siguientes componentes físicos y lógicos:
 
 * **Dispositivo de Capa 3 (Router - Cisco 1941)**: 
@@ -16,8 +16,23 @@ La red implementada consta de los siguientes componentes físicos y lógicos:
 * **Hosts Finales (PCs)**:
   * Configurados en modo cliente DHCP para solicitar dinámicamente su configuración IP al conectarse al medio.
 
+![Topología de Red](./Topologia.jpg)
+
 ---
 
+## ⚙️ Configuración y Comandos de Implementación
+
+### 1. Activación y direccionamiento lógico de la Interfaz (Gateway)
+Se configura la interfaz física del router conectada hacia el switch con la dirección IP que servirá como pasarela predeterminada de la red:
+
+```text
+enable
+configure terminal
+interface GigabitEthernet0/0
+ip address 192.168.10.1 255.255.255.0
+no shutdown
+exit
+```
 ## ⚙️ Configuración y Comandos de Implementación
 Evidencias de Funcionamiento y Verificación -> Asignación Dinámica de IP:
 ![DHCP PC0](./DHCP_PC0.jpg)
@@ -51,7 +66,7 @@ ping 192.168.10.12
 * Pasos para tirar el comando ping:PC1.
 Evidencias de Funcionamiento y Verificación -> Pruebas de Conectividad End-to-End:
 ```
- ```text  ping 192.168.10.11
+ping 192.168.10.11
 ```
 
 
