@@ -54,6 +54,10 @@ Los equipos cliente procesan de forma exitosa el intercambio de mensajes DHCP (D
 ![Ping PC1](./PingPC1.jpg)
 Se comprueba la integridad de la red mediante el envío de paquetes de eco ICMP entre los equipos de la misma subred, obteniendo un índice de pérdida del 0%.
 
+# 📊 RESUMEN
+![Resumen](./Resumen.jpg)
+
+
 🚀 Próximos Pasos (Escalabilidad del Proyecto)
 Fase 2: Implementación de DHCP Relay Agent (ip helper-address) para permitir que un único servidor centralizado entregue direcciones IP a múltiples redes remotas interconectadas por varios routers.
 
