@@ -1,5 +1,9 @@
 # 🌐 Proyecto de Infraestructura: Servidor DHCPv4 Centralizado en Cisco Packet Tracer
 
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=MarceloNH-IT.MarceloNH-IT&style=flat&color=blue)
+
+
+
 ## 📋 Descripción del Proyecto
 Este repositorio documenta la implementación de un entorno de red de área local (LAN) estructurada, donde se configura un **Router Cisco** para operar como un **Servidor DHCPv4 dinámico**, automatizando la entrega de parámetros de red a los hosts finales (End Devices) y evitando asignaciones estáticas propensas a errores humanos.
 
@@ -72,7 +76,7 @@ Fase 2: Implementación de DHCP Relay Agent (ip helper-address) para permitir qu
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=MarceloNH-IT&theme=radical)
 
-![Profile Views](https://komarev.com/ghpvc/?username=MarceloNH-IT&color=blue&style=flat)
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=MarceloNH-IT.MarceloNH-IT&style=flat&color=blue)
 
 * **💼 LinkedIn**: [Horacio Marcelo Nuñez](https://linkedin.com) 
 * **📬 Correo Electrónico**: [marcelonh86@gmail.com](marcelonh86@gmail.com)
